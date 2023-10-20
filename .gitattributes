@@ -1,0 +1,2 @@
+/bart_generator/pytorch_model.bin filter=lfs diff=lfs merge=lfs -text
+/retrever/pytorch_model.bin filter=lfs diff=lfs merge=lfs -text
