@@ -10,7 +10,7 @@ model_directory = "retrever"  # Specify the directory where you saved the model
 retriever = SentenceTransformer(model_directory)
 
 # Initialize Pinecone index
-api_key = "bd1d3537-f881-47a6-8255-dd460454b4a6"
+api_key = "api_key"
 pinecone.init(api_key=api_key, environment="gcp-starter")
 index_name = "question-answer-app"
 index = Index(index_name)
